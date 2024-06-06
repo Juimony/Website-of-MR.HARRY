@@ -1,0 +1,152 @@
+/* Shared style */
+body{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+                    /* PART 01 of the project (HEADER) */
+/* Whole header */
+.header{
+    width: 1350px;
+  height: 650px;
+  margin: 0 0 130px;
+  padding: 38px 0 0 23px;
+  background-color: #fff8f3;
+  background-image: url('./header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  
+}
+
+/* Harry portfolio blog and button (nav): First part of header */
+
+nav{
+    /* Marry portfolio blog hire me (h3 li:a li:a hire me:Button) */
+    display: flex;
+}
+nav > ul{
+    /* portfolio blog hire me  */
+    display: flex;
+}
+.nav-title{
+/* Marry */
+
+    width: 121px;
+  height: 61px;
+  margin: 13px 420px 49px 67px;
+  font-size: 45px;
+  font-weight: 800;
+  text-align: left;
+  color: #181818;
+
+}
+.text-primary{
+    /* r */
+    color: #fd6e0a;
+}
+nav li{
+    /* Portfolio blog Hire me */
+    list-style: none;
+}
+nav a{
+    /* portfolio blog */
+    margin-right: 50px;
+}
+.btn-primary{
+    /* Hire Me */
+  
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+/* detail of banner: Second  part of Header */
+/* main one (banner)*/
+.banner {
+display: flex;
+padding: 30px 30px 0px 100px;
+text-align: center;
+justify-content: space-between;
+
+}
+/* Children 01,02,03 of banner 01 */
+.banner-greeting{
+    /* Hi, I am  */
+    width: 177px;
+    height: 61px;
+    flex-grow: 0;
+    margin: 0 408px 5px 0;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: left;
+    color: #474747;
+
+}
+.banner-holder{
+    /* Marry Hardy */
+    width: 498px;
+    height: 116px;
+    flex-grow: 0;
+    margin: 5px 87px 20px 0;
+    font-size: 85px;
+    font-weight: bold;
+    text-align: left;
+    color: #181818;
+
+}
+.banner-discription{
+    /* paragraph */
+    width: 585px;
+    height: 60px;
+    flex-grow: 0;
+    margin: 20px 0 0;
+    font-size: 18px;
+     line-height: 1.67;
+    text-align: left;
+    color: #757575;
+
+}
+/* banner 02 */
+.banner .pic-harry{
+    /* picture of Hardy */
+    width: 500px;
+    height: 500px;
+}
+
+
+
+   
+                    /* PART 02 of the project (ABOUT ME) */
+.section{
+    width: 900px;
+  margin: 150px;
+  padding: 130px;
+  border-radius: 10px;
+  background-color: #fff8f3;
+}
+
+.About-Me {
+  width: 169px;
+  height: 48px;
+  flex-grow: 0;
+  margin: 0 329px 30px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  color: #181818;
+}
+.section-description{
+    /* paragraph */
+    width: 827px;
+  height: 120px;
+  flex-grow: 0;
+  margin: 30px 0;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+  color: #757575;
+}
+   
