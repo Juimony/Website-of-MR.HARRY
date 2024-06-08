@@ -159,9 +159,10 @@ justify-content: space-between;
 text-align: center;
 }
                 /* PART 03 of the project: What I do part */
-.section{
-    margin-bottom: 150px;
 
+
+main .section{
+    margin-top: 150px;
 }
 
 
@@ -178,7 +179,7 @@ text-align: center;
     /* Same as section-discription */
     width: 909px;
     height: 90px;
-    margin: 30px 300px 50px 200px;
+    /* margin: 30px 300px 50px 200px; */
     font-size: 18px;
    line-height: 1.67;
     text-align: center;
@@ -198,3 +199,71 @@ text-align: center;
 .container-paragraph{
     color: #757575;
 }
+
+                            /* Part 04: resume */
+
+  .a-summary-of-resume{
+    /* h2 */
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #181818;
+  }                 
+.section-03{
+    margin-top: 150px;
+}
+
+.resume-flex {
+    display: flex;
+    gap: 50px;
+   margin-left: 200px;
+   margin-right: 100px;
+}
+
+.main-column-01{
+    text-align: left;
+}
+.column-02{
+    /* my education and my experience:h3 */
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+}
+.column-04{
+    /* Master in Computer Engineering; Jr. Font End Developer */
+    width: 405px;
+    height: 34px;
+    flex-grow: 0;
+    margin: 0 106px 10px 0;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    color: #474747;
+}
+.column-05{
+    /* Harvard University / 2015 - 2017 */
+    width: 309px;
+    height: 27px;
+    flex-grow: 0;
+    margin: 10px 202px 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+.paragraph-02{
+    width: 511px;
+    height: 84px;
+    flex-grow: 0;
+    margin: 20px 0 0;
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: left;
+    color: #757575;
+}
+/* .download-cv{
+    text-align: center;
+} */
+                           
+
+
+
